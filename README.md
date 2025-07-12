@@ -49,15 +49,6 @@
 
 <hr />
 
-<h2>💡 Future Improvements</h2>
-<ul>
-  <li>Dark mode toggle</li>
-  <li>Password strength meter</li>
-  <li>Save password history</li>
-</ul>
-
-<hr />
-
 <h2>🤝 Contributing</h2>
 <p>Contributions are welcome! Feel free to fork the repository and submit a pull request.</p>
 
