@@ -1,24 +1,72 @@
-# PASSWORD-GENERATOR
+<h1>🔐 Password Generator</h1>
 
-This project is a password generator web application designed to create strong, random passwords for users who need secure credentials. The tool allows users to specify the length and complexity of the password, offering a variety of customizable options. With a clean and responsive user interface, it ensures ease of use across different devices. It leverages modern web technologies, including HTML, CSS, and JavaScript, to provide a seamless experience. The generator focuses on enhancing security by creating unpredictable passwords with a mix of uppercase, lowercase letters, numbers, and symbols.
+<p>A simple and customizable password generator built using <strong>HTML, CSS, and JavaScript</strong>. Create strong and secure passwords with options like uppercase, lowercase, numbers, symbols, and length control.</p>
 
-Key Features:
-* Customizable Password Length: Allows users to specify the number of characters in the generated password.
+<hr />
 
-* Complexity Control: Offers options to include uppercase letters, lowercase letters, numbers, and special characters.
+<h2>🚀 Features</h2>
+<ul>
+  <li>Custom password length</li>
+  <li>Toggle character types: Uppercase, Lowercase, Numbers, Symbols</li>
+  <li>One-click password copy to clipboard</li>
+  <li>Responsive design</li>
+</ul>
 
-* User-Friendly Interface: Simple design with easy-to-use controls, making password generation straightforward.
+<hr />
 
-* Real-Time Generation: Passwords are generated instantly as users adjust their settings.
+<h2>📸 Preview</h2>
+<p><img src="https://raw.githubusercontent.com/Daksh-Vermaa/PASSWORD-GENERATOR/main/preview.png" alt="Password Generator Preview" width="600"/></p>
 
-* Copy to Clipboard: A button to easily copy the generated password to the clipboard for convenience.
+<hr />
 
-* Responsive Design: Optimized for desktop and mobile devices to provide a consistent user experience across platforms.
+<h2>🔧 Technologies Used</h2>
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JavaScript (Vanilla)</li>
+</ul>
 
-* Secure and Random: Uses JavaScript’s crypto API to ensure the passwords are generated securely and unpredictably.
+<hr />
 
+<h2>🧠 How It Works</h2>
+<ol>
+  <li>Choose the desired password length.</li>
+  <li>Select character types (uppercase, lowercase, numbers, symbols).</li>
+  <li>Click <strong>Generate Password</strong>.</li>
+  <li>Click on the generated password to copy it to your clipboard.</li>
+</ol>
 
+<hr />
 
-# Visit
+<h2>📁 Getting Started</h2>
 
-https://docdoooom.github.io/PASSWORD-GENERATOR/
+<pre>
+1. Clone the repository:
+   git clone https://github.com/Daksh-Vermaa/PASSWORD-GENERATOR.git
+
+2. Open <code>index.html</code> in your browser.
+</pre>
+
+<hr />
+
+<h2>💡 Future Improvements</h2>
+<ul>
+  <li>Dark mode toggle</li>
+  <li>Password strength meter</li>
+  <li>Save password history</li>
+</ul>
+
+<hr />
+
+<h2>🤝 Contributing</h2>
+<p>Contributions are welcome! Feel free to fork the repository and submit a pull request.</p>
+
+<hr />
+
+<h2>📄 License</h2>
+<p>This project is licensed under the <strong>MIT License</strong>.</p>
+
+<hr />
+
+<h2>📬 Contact</h2>
+<p>Made with ❤️ by <a href="https://github.com/Daksh-Vermaa" target="_blank">Daksh Verma</a></p>
