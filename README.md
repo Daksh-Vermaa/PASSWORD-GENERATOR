@@ -60,4 +60,4 @@
 <hr />
 
 <h2>📬 Contact</h2>
-<p>Made by <a href="https://github.com/Daksh-Vermaa" target="_blank">Daksh Verma ⚡</a></p>
+<p>Made by <a href="https://github.com/Daksh-Vermaa" target="_blank">Daksh Verma </a></p>⚡
