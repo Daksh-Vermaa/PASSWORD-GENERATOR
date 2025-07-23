@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Password Generator</title>
+    <link rel="stylesheet" href="trash.css" />
+  </head>
+  <body data-theme="dark">
+    <div class="floating-particles"></div>
+
+    <div class="container">
+      <div class="header">
+        <h1 class="title">🔐 Password Generator</h1>
+        <button class="theme-toggle" onclick="toggleTheme()">
+          <span id="theme-icon">🌙</span>
+        </button>
+      </div>
+
+      <div class="password-output">
+        <input
+          type="text"
+          class="password-field"
+          id="password"
+          readonly
+          placeholder="Click generate to create a password"
+        />
+        <div class="password-actions">
+          <button class="btn" onclick="generatePassword()">
+            <span class="dice" id="dice">🎲</span>
+            Generate
+          </button>
+          <button class="btn btn-secondary" onclick="copyPassword()">
+            📋 Copy
+          </button>
+          <button class="btn btn-secondary" onclick="regeneratePassword()">
+            🔄 Regenerate
+          </button>
+        </div>
+      </div>
+
+      <div class="strength-meter">
+        <div class="strength-info">
+          <span class="strength-label" id="strength-text"
+            >Password Strength</span
+          >
+          <div class="entropy-info">
+            <span id="entropy">Entropy: 0 bits</span>
+            <span id="crack-time">Crack time: -</span>
+          </div>
+        </div>
+        <div class="strength-bar">
+          <div class="strength-fill" id="strength-fill"></div>
+        </div>
+      </div>
+
+      <div class="settings-grid">
+        <div class="setting-group">
+          <div class="setting-label">🔢 Password Length</div>
+          <div class="length-control">
+            <input
+              type="range"
+              class="length-slider"
+              id="length"
+              min="4"
+              max="64"
+              value="16"
+            />
+            <div class="length-display" id="length-value">16</div>
+          </div>
+        </div>
+
+        <div class="setting-group">
+          <div class="setting-label">📝 Character Types</div>
+          <div class="checkbox-grid">
+            <div class="checkbox-item" onclick="toggleCheckbox('uppercase')">
+              <div class="checkbox checked" id="checkbox-uppercase"></div>
+              <span>Uppercase (A-Z)</span>
+            </div>
+            <div class="checkbox-item" onclick="toggleCheckbox('lowercase')">
+              <div class="checkbox checked" id="checkbox-lowercase"></div>
+              <span>Lowercase (a-z)</span>
+            </div>
+            <div class="checkbox-item" onclick="toggleCheckbox('numbers')">
+              <div class="checkbox checked" id="checkbox-numbers"></div>
+              <span>Numbers (0-9)</span>
+            </div>
+            <div class="checkbox-item" onclick="toggleCheckbox('symbols')">
+              <div class="checkbox checked" id="checkbox-symbols"></div>
+              <span>Symbols (!@#$%)</span>
+            </div>
+            <div class="checkbox-item" onclick="toggleCheckbox('emojis')">
+              <div class="checkbox" id="checkbox-emojis"></div>
+              <span>Emojis 😊🎉🔥</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="setting-group" id="emoji-section" style="display: none">
+          <div class="setting-label">😊 Select Emojis</div>
+          <div class="emoji-selector">
+            <button class="emoji-btn" onclick="toggleEmoji('😊')">😊</button>
+            <button class="emoji-btn" onclick="toggleEmoji('🎉')">🎉</button>
+            <button class="emoji-btn" onclick="toggleEmoji('🔥')">🔥</button>
+            <button class="emoji-btn" onclick="toggleEmoji('⭐')">⭐</button>
+            <button class="emoji-btn" onclick="toggleEmoji('💎')">💎</button>
+            <button class="emoji-btn" onclick="toggleEmoji('🚀')">🚀</button>
+            <button class="emoji-btn" onclick="toggleEmoji('🌟')">🌟</button>
+            <button class="emoji-btn" onclick="toggleEmoji('💯')">💯</button>
+            <button class="emoji-btn" onclick="toggleEmoji('🎯')">🎯</button>
+            <button class="emoji-btn" onclick="toggleEmoji('🏆')">🏆</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="trash.js"></script>
+  </body>
+</html>
