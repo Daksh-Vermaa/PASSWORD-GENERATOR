@@ -47,7 +47,7 @@ A modern, secure, and feature-rich password generator built with vanilla HTML, C
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/password-generator.git
+   git clone https://github.com/Daksh-Vermaa/PASSWORD-GENERATOR.git
    cd password-generator
    ```
 
@@ -101,7 +101,7 @@ A modern, secure, and feature-rich password generator built with vanilla HTML, C
 
 ### File Structure
 ```
-/
+
 ├── index.html          # Main HTML structure
 ├── style.css           # Styling and animations
 ├── script.js           # Core functionality
@@ -192,12 +192,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or run into issues:
 
-- **Create an Issue**: [GitHub Issues](https://github.com/yourusername/password-generator/issues)
+- **Create an Issue**: [GitHub Issues](https://github.com/Daksh-Vermaa/PASSWORD-GENERATOR/issues)
 - **Feature Requests**: Use the issue tracker with the "enhancement" label
 - **Security Concerns**: Please report privately via email
 
 ---
 
-**Made with ❤️ and JavaScript**
+**Made by <a href="https://github.com/Daksh-Vermaa" target="_blank">Daksh Verma </a>⚡ with ❤️**
 
 *Remember: Always use unique, strong passwords for different accounts and consider using a password manager for better security!*
